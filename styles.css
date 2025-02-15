@@ -14,6 +14,9 @@ ul {
 }
 
 h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
     margin: 0;
 }
 
@@ -39,7 +42,17 @@ header {
     justify-content: space-around;
     align-items: center;
     margin: auto;
+    padding: 25px;
     background-color: #1F2937;
+    color: white;
+}
+
+.sign-up-top {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    padding: 3px 30px;
+    border-radius: 5px;
+    border-color:#3882f6;
 }
 
 .middle {
@@ -48,6 +61,7 @@ header {
 }
 
 .top-left-wrapper, .top-right-wrapper {
+    max-width: 50%;
     margin: 0;
 }
 
@@ -59,7 +73,7 @@ header {
 }
 
 #header-img {
-    max-height: 300px;
+    max-height: 225px;
 }
 
 body {
@@ -86,6 +100,11 @@ body {
     border-radius: 10px;
     width: 175px;
     height: 175px;
+}
+
+figcaption {
+    max-width: 175px;
+    text-align: center;
 }
 
 .img-wrapper > figure {
@@ -147,6 +166,7 @@ blockquote {
     color: white;
     padding: 6px 30px;
     border-radius: 10px;
+    border-color:#F9FAF8;
 }
 
 footer {
